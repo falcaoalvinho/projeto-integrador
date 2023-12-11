@@ -6,3 +6,10 @@
 body {
     background: var(--cor_04);
 } 
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% da altura da viewport */
+}

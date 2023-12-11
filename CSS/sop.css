@@ -1,3 +1,19 @@
-#titulo{
-    
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+#container_sop{
+    background: url("../GIFS/sopfundo.gif") center top no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.img_fundo img{
+    width: 100%;
+}
+.titulo{
+    color: aliceblue;
+    text-align: center
+    ;
 }
