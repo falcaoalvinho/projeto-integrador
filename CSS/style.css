@@ -1,0 +1,17 @@
+/* IMPORT DAS UTILIDADES */
+    @import "global.css"; /* REGRAS DE ESTILO GLOBAIS */
+    @import "footer.css"; /* MODELO DE FOOTER */
+    @import "header.css"; /* MODELO DE HEADER */
+    @import "cores.css"; /* PALETA DE CORES */
+    @import "tipografia.css"; /* TIPOGRAFIA */
+
+/* IMPORT DAS PÁGINAS */
+    @import "index.css";
+
+/*  IMPORT DAS FONTES */   
+    @import url('https://fonts.googleapis.com/css2?family=Carme&display=swap'); /* FONTE "Carme" *400 */
+
+    @import url('https://fonts.googleapis.com/css2?family=Carme&family=Roboto:wght@300&display=swap'); /* FONTE "Roboto" *300 */
+    @import url('https://fonts.googleapis.com/css2?family=Carme&family=Roboto:wght@300;900&display=swap'); /* FONTE "Roboto" *900 */
+
+    @import url('https://fonts.googleapis.com/css2?family=Carme&family=Prompt&family=Roboto:wght@300;900&display=swap'); /* FONTE 'Prompt" *400 */

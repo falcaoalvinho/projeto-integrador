@@ -1,0 +1,22 @@
+video::after {
+    content: "";
+    height: 5px;
+    width: 100%;
+    background: var(--cor_12);
+    
+    margin-top: 130px;
+    justify-content: flex-start;
+    position: absolute;
+}
+
+video {
+    width: 100%;
+}
+
+.titulo_padrao h2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.35;
+    font-family: 'Carme', sans-serif;
+}
+

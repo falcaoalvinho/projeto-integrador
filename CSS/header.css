@@ -1,0 +1,48 @@
+@import "style.css"; /*IMPORT DA FOLHA DE ESTILO GERAL */
+
+/* HEADER */
+    header {
+        height: 120px;
+        background: linear-gradient(rgba(00, 00, 00, 0.2), rgba(00, 00, 00, 1));
+
+        display: flex;
+        justify-content:space-between;
+        z-index: 2;
+    }
+
+    /* ESTILO DA LOGO DO SENAI */
+    .logo_senai {
+            width: 140px;
+            height: 35px;
+            
+            margin-top: 40px;
+            margin-left: 40px;
+        }
+
+    /* NAV BAR */
+        header nav {
+            margin-top: 40px;
+        }
+        
+        /* LINKS DA NAV BAR */
+        header a{ 
+            margin-right: 40px;
+            
+            color: var(--cor_12);
+            font-weight: 400  ;
+            font-size: 20px;
+            line-height: 1.35;
+            font-family: 'Carme', sans-serif;
+        }
+        
+        /* DETALHE DO HEADER */
+            header::after {
+                content: "";
+                height: 5px;
+                width: 100%;
+                background: var(--cor_12);
+                
+                margin-top: 115px;
+                justify-content: first baseline;
+                position: absolute;
+            }

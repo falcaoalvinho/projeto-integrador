@@ -1,0 +1,65 @@
+@import "style.css"; /*IMPORT DA FOLHA DE ESTILO GERAL */
+
+/* FOOTER */
+footer {
+    height: 280px;
+    background: linear-gradient(rgba(00, 00, 00, 0.2), rgba(00, 00, 00, 1));
+    
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    }
+
+    /* DETALHE DO FOOTER */
+        footer::before {
+            content: "";
+            height: 5px;
+            width: 100%;
+            background: var(--cor_12);
+            
+            margin-bottom: 280px;
+            position: fixed;
+            justify-content: start;
+            position: absolute;
+        }
+
+        /* DIVS DO FOOTER */
+            .secao_footer {
+                margin-right: 200px;
+            }
+
+
+        /* TITULOS */
+            footer h2 {
+                margin-top: 40px;
+                margin-bottom: 15px;
+
+                color: var(--cor_12);
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 1.35;
+                font-family: 'Carme', sans-serif;
+                text-decoration: underline; 
+            }
+
+        /* TEXTOS */
+            footer li {
+                margin-bottom: 8px;
+                
+                padding: 5px;
+                list-style: none;
+                border-radius: 5px;
+                text-decoration: none;
+                background: var(--cor_05);
+
+                color: var(--cor_09);
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 1.35;
+                font-family: 'Carme', sans-serif;
+                } 
+
+        /* LINKS REDES SOCIAIS */
+                footer a {
+                    margin-left: 25px;
+                }

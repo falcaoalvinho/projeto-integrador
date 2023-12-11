@@ -1,0 +1,44 @@
+/* FONTES DO SITE */
+    /* FONTES DO HEADER */
+        .font-header {
+            font: 400 20px/1.35 'Carme', sans-serif;
+        }
+    
+    /* FONTES DO TITULO PADRÃO */
+        .font-maior-titulo-padrao{
+            font: 400 36px/1.35 'Carme', sans-serif;
+        }
+        .font-menor-titulo-padrao {
+            font: 400 30px/1.35 'Carme', sans-serif;
+        }
+        .font-espacada-titulo-padrao {
+            font: 300 36px/1.35 'Roboto', sans-serif;
+        }
+
+    /* FONTE BOTÃO SAIBA MAIS */
+        .font-botão-saiba {
+            font: 400px 16px/ 'Carme', sans-serif;
+        }
+
+    /* FONTE DO DETALHE EM TEXTO (TITULO GRANDE) */
+        .font-grande-detalhe {
+            font: 900 150px/1.50 'Roboto', sans-serif;
+        }
+
+    /* FONTES DAS CAIXAS DE TEXTO */
+        .font-titulo-caixa {
+            font: 400 28px/1.35 'Carme', sans-serif;
+        }
+        .font-texto-caixa {
+            font: 400 22px/1.35 'Prompt', sans-serif;
+        }
+
+    /* FONTES DO FOOTER */
+        .font-footer-titulo {
+            font: 400 18px/1.35 'Carme', sans-serif; 
+        }
+        .font-footer-texto {
+            font: 400 10px/ 1.35 'Carme', sans-serif;
+        }
+
+

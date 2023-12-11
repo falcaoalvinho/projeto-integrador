@@ -1,0 +1,45 @@
+
+/* CORES DO SITE */
+    :root {
+        /* TONS DE PRETO */
+            --cor_01: rgba(00, 00, 00, 1);
+            --cor_02: rgba(00, 00, 00, 0.5);
+            --cor_03: rgba(00, 00, 00, 0.2);
+            --cor_04: #212121;
+
+
+        /* TONS DE CINZA */
+            /* TRANSLUCIDOS */
+                --cor_05: rgba(48, 48, 48, 0.4);
+                --cor_06: rgba(99, 99, 99, 0.04);
+                --cor_07: rgba(33, 33, 33, 0.1);
+        
+            /* SÓLIDOS */
+                --cor_08: #333333;
+                --cor_09: #989898;
+                --cor_10: #706C6C;
+                --cor_11: #958E8E;
+
+        /*TONS DE BRANCO */
+            --cor_12: #fff;
+
+        /*CORES VARIADAS */
+            /* ROXO */
+                --cor_13: #61348C;
+                --cor_14: #9655D6;
+                --cor_15: #9551D7;
+    }
+
+    /*
+        PÁGINAS PARA INCLUIR
+    --------------------------------
+    |   INDEX                  (X)  |
+    |   NETFLIX                ( )  |
+    |   CRÉDITOS               ( )  |
+    |   HARE                   ( )  |
+    |   FPOO                   ( )  |
+    |   SOP                    ( )  |
+    |   LIMA                   ( )  |
+    --------------------------------
+
+     */
