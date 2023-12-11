@@ -77,6 +77,66 @@ body, html {
     /* layout */
     text-align: center;
     padding-left: 100px;
-    margin: 0;
-   
+    margin: 0;  
 }
+
+.caixa_texto{
+    /* layout */
+    width: 765px;
+    height: 400px;
+    position: absolute;
+    top: 800px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    /* Style */
+    border-radius: 4px;
+    background: #212121a9;
+    box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.titulo_caixa{
+    /* Layout */
+    width: 390px;
+    height: 55px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    /* Tipografia */
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.titulo_caixa::before{
+    content: "";
+    background: #486FF3;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 5px;
+    
+}
+
+.texto_caixa{
+    /* Layout */
+    width: 680px;
+    height: 280px;
+    padding-left: 30px;
+
+     /* Tipografia */
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 50px; /* 166.667% */
+
+}
+
