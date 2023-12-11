@@ -8,12 +8,75 @@ body, html {
     background-size: 100% 100%;
 }
 
+#container_sop::after{
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+    
+}
 
 .img_fundo img{
     width: 100%;
 }
 .titulo{
-    color: aliceblue;
-    text-align: center
-    ;
+    /* tipografica */
+    font-family: Carme;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--cor_12);
+
+    /* layout */
+    text-align: center;
+    width: 825px;
+    height: 60px;
+}
+
+.linha{
+    position: absolute;
+    text-align: center;
+    border-top: 1px solid var(--cor_12);
+    width: 825px;
+    height: 5px;
+    border-radius: 5px;
+}
+
+.t_curso{
+    /* tipografia */
+    color: var(--cor_12);
+    font-family: Carme;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    /* layout */
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    
+    
+}
+
+.t_senai{
+    /* tipografia */
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 90px;
+    color: var(--cor_12);
+
+    /* layout */
+    text-align: center;
+    padding-left: 100px;
+    margin: 0;
+   
 }
