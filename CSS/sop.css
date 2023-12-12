@@ -148,6 +148,191 @@ body, html {
     height: auto;
     flex-shrink: 0;
     fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
-    clip-path: polygon(0 0, 70% 0, 85% 100%, 15% 100%); /* Define a forma angular */
+    padding-bottom: 100px;
+    /* clip-path: polygon(0 0, 0 0, 0 0, 0 0); Define a forma angular */
 }
 
+/* TITULO 2  PROJETO ORÇAMENTARIO DE UM HOSPITAL*/
+.titulo2{
+      /* tipografica */
+      margin-top: 1500px;
+      font-family: Carme;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      color: var(--cor_12);
+  
+      /* layout */
+      text-align: center;
+      width: 825px;
+      height: 60px;
+      margin-left: 220px;
+      margin-bottom: 80px;
+}
+
+.linha2{
+    text-align: center;
+    border-top: 1px solid var(--cor_12);
+    width: 825px;
+    height: 5px;
+    margin-left: 220px;
+    margin-bottom: 20px;
+}
+
+.t_sop{
+     /* tipografia */
+     font-family: Roboto;
+     font-size: 48px;
+     font-style: normal;
+     font-weight: 200;
+     line-height: normal;
+     letter-spacing: 90px;
+     color: var(--cor_12);
+ 
+     /* layout */
+     text-align: center;
+     padding-left: 100px;
+     margin-top: 20px; 
+     margin-bottom: 20px;
+     margin-left: -30px;
+}
+
+/* caixa de dialogo 2 */
+.caixa_texto2{
+    /* layout */
+    width: 765px;
+    height: 400px;
+    position: absolute;
+    top: 2400px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    /* Style */
+    border-radius: 4px;
+    background: #212121a9;
+    box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.titulo_caixa2{
+    /* Layout */
+    width: 390px;
+    height: 55px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    /* Tipografia */
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.titulo_caixa2::before{
+    content: "";
+    background: #486FF3;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 5px;
+
+}
+
+.texto_caixa2{
+    /* Layout */
+    width: 680px;
+    height: 280px;
+    padding-left: 30px;
+
+     /* Tipografia */
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 50px; /* 166.667% */
+}
+
+/* caixa de dialogo 3 */
+.caixa_texto3{
+    /* layout */
+    width: 765px;
+    height: 400px;
+    position: absolute;
+    top: 3000px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    /* Style */
+    border-radius: 4px;
+    background: #212121a9;
+    box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    margin-bottom: 100px;
+    z-index: 2;
+}
+
+.titulo_caixa3{
+    /* Layout */
+    width: 390px;
+    height: 55px;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    /* Tipografia */
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    z-index: 3;
+}
+
+.titulo_caixa3::before{
+    content: "";
+    background: #486FF3;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    margin-left: -50px;
+    margin-top: 5px;
+    z-index: 3;
+    
+}
+
+.texto_caixa3{
+    /* Layout */
+    width: 680px;
+    height: 280px;
+    padding-left: 30px;
+
+     /* Tipografia */
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 50px; /* 166.667% */
+    z-index: 3;
+}
+
+/* imagem de fundo ERROR */
+
+.erro img {
+    position: absolute;
+    text-align: center;
+    top: 0px;
+    height: auto;
+    width: 100%;
+    fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    padding-bottom: 100px;
+    z-index: 1;
+    }
