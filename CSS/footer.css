@@ -2,6 +2,7 @@
 
 /* FOOTER */
 footer {
+    width: 100%;
     height: 280px;
     background: linear-gradient(rgba(00, 00, 00, 0.2), rgba(00, 00, 00, 1));
     
@@ -19,8 +20,7 @@ footer {
             background: var(--cor_12);
             
             margin-bottom: 280px;
-            position: fixed;
-            justify-content: start;
+            justify-content: space-between;
             position: absolute;
         }
 
