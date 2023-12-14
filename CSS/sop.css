@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    margin-bottom: 280px; /* Adicione a altura do footer como margem inferior */
 }
 
 main {
@@ -20,8 +21,6 @@ main {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-   
-    
 }
 
 .img_fundo img{
@@ -172,7 +171,7 @@ main {
       text-align: center;
       width: 825px;
       height: 60px;
-      margin-left: 220px;
+      margin-left: 360px;
       margin-bottom: 80px;
 }
 
@@ -181,7 +180,7 @@ main {
     border-top: 1px solid var(--cor_12);
     width: 825px;
     height: 5px;
-    margin-left: 220px;
+    margin-left: 360px;
     margin-bottom: 20px;
 }
 
@@ -197,7 +196,7 @@ main {
  
      /* layout */
      text-align: center;
-     padding-left: 100px;
+     padding-left: 160px;
      margin-top: 20px; 
      margin-bottom: 20px;
      margin-left: -30px;
@@ -209,15 +208,19 @@ main {
     top: 2500px;
     width: 900px;    
     height: auto;
-    margin-left: 170px;
+    margin-bottom: 100px;
+    margin-left: 330px;
     margin-bottom: 100px;
     flex-shrink: 0;
     position: absolute;
+    /* tentando deixar no centro */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
     /* text-align: center;
     fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
     padding-bottom: 100px; */
-
 
 /* caixa de dialogo 2 */
 .caixa_texto2{

@@ -1,19 +1,31 @@
 @import "style.css"; /*IMPORT DA FOLHA DE ESTILO GERAL */
 
-/* FOOTER */
+body {
+    margin-bottom: 280px; /* Adicione a altura do footer como margem inferior */
+}
+
 footer {
     width: 100%;
     height: 280px;
-    background: linear-gradient(rgba(00, 00, 00, 0.2), rgba(00, 00, 00, 1));
-    
+    background: linear-gradient(rgba(00, 00, 00, 0.2), rgba(00, 00, 00, 1));    
+    /* justify-content: space-between; ta dando erro */
+    /* tentando fazer milagre */
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    align-items: center;
+    bottom: 0;
+    padding: 10%;
+    padding-top: 2000px;
     z-index: 2;
-    }
+
+}
+
+/* Remova a pseudo-classe ::before */
+
+/* ... restante do seu CSS ... */
 
     /* DETALHE DO FOOTER */
-        footer::before {
+        /* footer::before {
             content: "";
             height: 5px;
             width: 100%;
@@ -22,7 +34,8 @@ footer {
             margin-bottom: 280px;
             justify-content: space-between;
             position: absolute;
-        }
+            bottom: 0;
+        } */
 
         /* DIVS DO FOOTER */
             .secao_footer {
