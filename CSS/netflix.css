@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.VideoFundo{
+     position: fixed;
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     top: 0;
+     left: 0;
+     bottom: 0;
+}
+.pai{
+    position: fixed;
+    background-color: rgb(0, 0, 0,);
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    padding: 0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.pai .conteudo{
+    position: fixed;
+    width: 700px;
+    height: 300px;
+    text-align: center; 
+    display: flex;
+    align-items:first baseline; 
+    justify-content: center;
+    margin-bottom: 250px;
+}
+.pai .conteudo h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 900;
+    line-height: normal;
+    color: white;
+}
+.botoes{
+    position: absolute;
+    top: 50%;
+    left: 0.5%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+
+}    
+.botoes .limabut{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    padding: 0;
+    border: none;
+    background: none;
+}
+.botoes .FPOObut{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+}
+.botoes .HAREbut{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    padding: 0;
+    border: none;
+    background: none;
+}
+.botoes .SOPbut{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    padding: 0;
+    border: none;
+    background: none;
+}
+nav ul li{
+    list-style-type: none;
+}
+.avo{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9)) ;
+    position: relative;
+    width: 100vw;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#logo{
+    width: 140px;
+    height: 35px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.links{
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.links a{
+    font-family: 'Roboto', sans-serif;;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: white;
+}
+ .botoes #imagemH{
+    width: 150px;
+    height: 150px;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+}
+.botoes #imagemF{
+    width: auto;
+    height: 150px;
+    top: 0;
+    left: 0;
+    opacity: 3;
+    border-radius: 10px;
+}

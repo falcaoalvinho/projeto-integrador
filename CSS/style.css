@@ -4,10 +4,13 @@
     @import "header.css"; /* MODELO DE HEADER */
     @import "cores.css"; /* PALETA DE CORES */
     @import "tipografia.css"; /* TIPOGRAFIA */
+
     /* IMPORT DAS PÁGINAS */
     @import "index.css";
     @import "sop.css";
-
+    @import "sobre.css";
+    @import "fpoo.css";
+    @import "netflix.css";
 /*  IMPORT DAS FONTES */   
     @import url('https://fonts.googleapis.com/css2?family=Carme&display=swap'); /* FONTE "Carme" *400 */
 
