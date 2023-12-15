@@ -1,0 +1,163 @@
+.inicio__lima {
+    background: url(/GIFS/inicio-lima.gif) no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+.titulo__lima {
+    font-family: 'Carme', 'sans-serif';
+    font-size: 48px;
+    color: var(--cor_12);
+    text-align: center;
+    padding-top: 2.5em;
+}
+
+.barra {
+  border: 4px solid var(--cor_12);
+  border-radius: 10px;
+  width: 70%;
+  margin: 10px auto;
+}
+
+.curso {
+    font-size: 40px;
+}
+
+.senai {
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 300;
+    letter-spacing: .5em;
+}
+
+.sobre {
+    height: 100%;
+}
+
+.sobrecurso {
+    color: var(--cor_12);
+    font-family: 'Roboto', 'sans-serif';
+    width: 45%;
+    position: absolute;
+    top: 950px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+    /* Style */
+    border-radius: 4px;
+    background: #212121a9;
+    box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    margin-bottom: 100px;
+    padding: 1em;
+}
+
+.sobretitulo {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.sobretitulo::before {
+    content: ""; /* Adiciona conteúdo antes do elemento */
+    display: inline-block; /* Permite que o elemento tenha largura e altura */
+    width: 34px; /* Largura do quadrado vermelho */
+    height: 34px; /* Altura do quadrado vermelho */
+    background-color: #A73E48; /* Cor do quadrado vermelho */
+    margin-right: 10px; /* Espaço entre o quadrado e o texto do título */
+  }
+  
+.sobretexto {
+    margin-top: 1em;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.html {
+    background: url(/GIFS/fundohtml.gif) no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+.sobrehtml{
+    color: var(--cor_12);
+    font-family: 'Roboto', 'sans-serif';
+    width: 45%;
+    position: relative;
+    top: 25px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    
+    /* Style */
+    border-radius: 4px;
+    background: #212121a9;
+    box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    margin-bottom: 100px;
+    padding: 1em;
+}
+
+.projeto {
+    height: 100%;
+}
+
+.titulo__projeto {
+    font-family: 'Carme', 'sans-serif';
+    font-size: 48px;
+    color: var(--cor_12);
+    text-align: center;
+    padding-top: 2.5em;
+}
+
+.barra2 {
+  border: 4px solid var(--cor_12);
+  border-radius: 10px;
+  width: 60%;
+  margin: 10px auto;
+}
+
+.siteimg {
+    position: relative;
+    top: 100px;
+    left: 26%;
+}
+
+.sobreprojeto {
+    color: var(--cor_12);
+    font-family: 'Roboto', 'sans-serif';
+    width: 45%;
+    position: relative;
+    top: -550px;
+    left: 30%;
+    transform: translate(-50%, 50%);
+    
+    /* Style */
+    border-radius: 4px;
+    background: #212121a9;
+    box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    margin-bottom: 100px;
+    padding: 1em;
+}
+
+.conclusao {
+    margin-top: 70em;
+    background: url(/GIFS/fundoconclusao.gif) no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+.sobreconclusao {
+    color: var(--cor_12);
+    font-family: 'Roboto', 'sans-serif';
+    width: 45%;
+    position: relative;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    
+    /* Style */
+    border-radius: 4px;
+    background: #212121a9;
+    box-shadow: -4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+    margin-bottom: 100px;
+    padding: 1em;
+}
