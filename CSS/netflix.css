@@ -135,3 +135,15 @@ nav ul li{
     opacity: 3;
     border-radius: 10px;
 }
+#legenda{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;;
+    color: white;
+    text-decoration: none;
+
+}

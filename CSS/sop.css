@@ -11,6 +11,7 @@ main {
 #container_sop{
     background: url("../GIFS/sopfundo.gif") center top no-repeat;
     background-size: 100% 100%;
+    max-width: 100%;
 }
 
 #container_sop::after{
@@ -25,6 +26,10 @@ main {
 
 .img_fundo img{
     width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
 }
 .titulo{
     /* tipografica */
@@ -153,6 +158,9 @@ main {
     flex-shrink: 0;
     fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
     padding-bottom: 100px;
+
+    display: block;
+    margin: 0 auto;
     /* clip-path: polygon(0 0, 0 0, 0 0, 0 0); Define a forma angular */
 }
 
@@ -171,7 +179,7 @@ main {
       text-align: center;
       width: 825px;
       height: 60px;
-      margin-left: 360px;
+      margin-left: 260px;
       margin-bottom: 80px;
 }
 
@@ -180,7 +188,7 @@ main {
     border-top: 1px solid var(--cor_12);
     width: 825px;
     height: 5px;
-    margin-left: 360px;
+    margin-left: 260px;
     margin-bottom: 20px;
 }
 
@@ -199,7 +207,7 @@ main {
      padding-left: 160px;
      margin-top: 20px; 
      margin-bottom: 20px;
-     margin-left: -30px;
+     margin-left: -60px;
 }
 
 /* img packet tracer */
@@ -211,12 +219,14 @@ main {
     margin-bottom: 100px;
     margin-left: 330px;
     margin-bottom: 100px;
-    flex-shrink: 0;
-    position: absolute;
+    
+    
     /* tentando deixar no centro */
-    display: flex;
     align-items: center;
     justify-content: center;
+
+    display: block;
+    margin: 0 auto;
 }
     /* text-align: center;
     fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
@@ -357,8 +367,8 @@ main {
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
     opacity: 60%;
     z-index: 1;
-    width: 100%;
     height: 900px;
+    width: 100%;
     /*     max-width: 100%; /* Para garantir que a imagem não ultrapasse a largura do contêiner */
     /*height: auto; /* Para manter a proporção da imagem */
 }
